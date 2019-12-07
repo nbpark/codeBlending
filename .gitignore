@@ -1,3 +1,40 @@
+**/HELP.md
+**/*.gradle
+**/build/
+**/!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+**/.apt_generated
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings
+**/.springBeans
+**/.sts4-cache
+
+### IntelliJ IDEA ###
+**/.idea
+**/*.iws
+**/*.iml
+**/*.ipr
+**/out/
+
+### NetBeans ###
+/backend-ws/apiserver/nbproject/private/
+/backend-ws/apiserver/nbbuild/
+/backend-ws/apiserver/dist/
+/backend-ws/apiserver/nbdist/
+/backend-ws/apiserver/.nb-gradle/
+
+### VS Code ###
+**/.vscode/
+
+
+
+
+
 .DS_Store
 node_modules
 /dist
